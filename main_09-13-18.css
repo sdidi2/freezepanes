@@ -1,0 +1,128 @@
+body {
+       
+    margin: 0;
+    font-family: "liberation-sans",sans-serif;
+    background-color: #f0f5f5 !important;
+}
+
+html {
+    background-color: #f0f5f5 !important;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    color: #5F5F5F;
+}
+
+.box {
+    background-color: #75a3a3;
+    width: 100%;
+    height: 20px;
+    margin-top: 100px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+  
+/* I don't know why I have two of these 
+.div_table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    width: 50%;
+    min-height: auto;
+    background-color: blue;
+    margin-top: 0px;
+    color: white;
+    font-weight: normal;s
+    text-align: left;
+    overflow: visible;
+    word-wrap: break-word;
+} */
+
+
+
+.gl-table {
+    display:table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    width: 50%;
+    min-height: auto;
+    background-color: blue;
+    margin-top: 0px;
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-weight: normal;
+    text-align: left;
+    overflow: visible;
+    word-wrap: break-word;
+}
+/* I don't think I need columns, too for this application?
+    .gl-table-col {    
+        display: table-column;
+        background-color: green;
+        text-align: center;
+    }*/
+
+
+    .gl-table-caption {
+        display: table-caption;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        background-color: blue;
+        caption-side: top;
+    }
+
+    .gl-table-hdr {
+        display: table-header-group;
+/*      width: 50%
+        margin-left: auto;
+        margin-right: auto; */
+        background-color: blue;
+        color: white;
+        font-weight: bold;
+        border: 1px white;
+        position: fixed;
+    }
+
+    .gl-table-hdr-cell {
+        display: table-cell;
+        text-align: left;
+        font-weight: bold;
+        border-bottom: 1px solid white;
+    }
+
+    .gl-table-body {
+        display: table-row-group;
+       overflow:scroll; /*this is attempting to freeze panes*/
+    }
+
+    .gl-table-row {
+        display: table-row;
+    }
+
+    .gl-table-cell {
+        display: table-cell;
+        border: 1px solid white;
+    }
+
+/*the below is telling the CSS to put borders around the heading and data cells for the t tag table*/
+
+table,th,td {
+    border: 1px solid white
+}
+
+.spacer {
+    width: 100%;
+    min-height: 20px;
+    background: #f0f5f5;
+}
+
+/*this is attempting to freeze panes*/
+.scrollit {
+    overflow: scroll;
+    height: 100px;
+}
