@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<!-- This identifies the following as an HTML doc -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Wizard Text</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <link rel="stylesheet" href="main_09-13-18.css">
+   </head>
+  <body>
+    <!-- Box is your css -->
+
+    <div class="box">
+    cool fun tables
+  </div>
+
+<div class="spacer"></div>  
+
+<!-- ye olde div table
+
+    <div class="gl-table">
+  <div class="row">
+    <div class="gl-table-col">
+      Now there's four columns
+    </div>
+    <div class="gl-table-col">
+       Now there's four columns
+    </div>
+    <div class="gl-table-col">
+      Now there's four columns
+    </div>
+    <div class="gl-table-col">
+      Now there's four columns
+    </div>
+  </div>
+  <div class="row">
+    <div class="gl-table-col">
+      Now there's four columns
+    </div>
+    <div class="gl-table-col">
+       Now there's four columns
+    </div>
+    <div class="gl-table-col">
+      Now there's four columns
+    </div>
+    <div class="gl-table-col">
+      Now there's four columns
+    </div>
+  </div>
+</div>
+
+<div class="spacer"></div>   -->
+
+
+<div class="gl-table">
+  <div class="gl-table-caption">Green/Other Lanterns Ranked by Something</div>
+    <div class="gl-table-hdr-cell">Row Number</div>
+    <div class="gl-table-hdr-cell">Alter Ego Name</div>
+    <div class="gl-table-hdr-cell">Ranking</div>
+    <div class="gl-table-hdr-cell">Score (Out of 10)</div>
+  <div class="gl-table-row">
+    <div class="gl-table-cell">1</div>
+    <div class="gl-table-cell">Jon Stewart</div>
+    <div class="gl-table-cell">Blip</div>
+    <div class="gl-table-cell">4</div>
+  </div>
+  <div class="gl-table-row">
+    <div class="gl-table-cell">2</div>
+    <div class="gl-table-cell">Kyle Rainier</div>
+    <div class="gl-table-cell">Blop</div>
+    <div class="gl-table-cell">7</div>
+  </div>
+  <div class="gl-table-row">
+    <div class="gl-table-cell">3</div>
+    <div class="gl-table-cell">Kilowog</div>
+    <div class="gl-table-cell">Bloop</div>
+    <div class="gl-table-cell">8</div>
+  </div>  
+  <div class="gl-table-row">
+    <div class="gl-table-cell">1</div>
+    <div class="gl-table-cell">Sinestro</div>
+    <div class="gl-table-cell">Blep</div>
+    <div class="gl-table-cell">10</div>
+  </div>
+  <div class="gl-table-row">
+    <div class="gl-table-cell">1</div>
+    <div class="gl-table-cell">Jon Stewart</div>
+    <div class="gl-table-cell">Blip</div>
+    <div class="gl-table-cell">4</div>
+  </div>
+  <div class="gl-table-row">
+    <div class="gl-table-cell">2</div>
+    <div class="gl-table-cell">Kyle Rainier</div>
+    <div class="gl-table-cell">Blop</div>
+    <div class="gl-table-cell">7</div>
+  </div>
+  <div class="gl-table-row">
+    <div class="gl-table-cell">3</div>
+    <div class="gl-table-cell">Kilowog</div>
+    <div class="gl-table-cell">Bloop</div>
+    <div class="gl-table-cell">8</div>
+  </div>  
+  <div class="gl-table-row">
+    <div class="gl-table-cell">1</div>
+    <div class="gl-table-cell">Sinestro</div>
+    <div class="gl-table-cell">Blep</div>
+    <div class="gl-table-cell">10</div>
+  </div>
+    <div class="gl-table-row">
+    <div class="gl-table-cell">1</div>
+    <div class="gl-table-cell">Jon Stewart</div>
+    <div class="gl-table-cell">Blip</div>
+    <div class="gl-table-cell">4</div>
+  </div>
+  <div class="gl-table-row">
+    <div class="gl-table-cell">2</div>
+    <div class="gl-table-cell">Kyle Rainier</div>
+    <div class="gl-table-cell">Blop</div>
+    <div class="gl-table-cell">7</div>
+  </div>
+  <div class="gl-table-row">
+    <div class="gl-table-cell">3</div>
+    <div class="gl-table-cell">Kilowog</div>
+    <div class="gl-table-cell">Bloop</div>
+    <div class="gl-table-cell">8</div>
+  </div>  
+  <div class="gl-table-row">
+    <div class="gl-table-cell">1</div>
+    <div class="gl-table-cell">Sinestro</div>
+    <div class="gl-table-cell">Blep</div>
+    <div class="gl-table-cell">10</div>
+  </div>
+</div>
+
+
+<!--SECOND TABLE, TH TAG VERSION-->
+
+<div>
+<table class="gl-table">
+  <caption class="gl-table-caption">Green/Other Lanterns Ranked, with Alignments</caption>
+  <thead>
+    <tr>
+      <th class="gl-table-hdr-cell">Row number</th>    
+      <th class="gl-table-hdr-cell">Alter Ego Name</th>
+      <th class="gl-table-hdr-cell">Ranking</th>
+      <th class="gl-table-hdr-cell">Alignment</th>
+    </tr>
+  </thead>
+  <tbody>
+  <div class="scrollit"> <!--this is attempting to freeze panes-->
+    <tr>
+      <th scope="row">1</th>
+      <td>Jon Stewart</td>
+      <td> 1 (duh)</td>
+      <td>Lawful good</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Kyle Rainier</td>
+      <td>3</td>
+      <td>Lawful good</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Kilowog</td>
+      <td>2</td>
+      <td>Chaotic good</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Sinestro</td>
+      <td>Last (gross)</td>
+      <td>Lawful evil</td>
+    </tr>
+    <tr>
+      <th scope="row">1</th>
+      <td>Jon Stewart</td>
+      <td> 1 (duh)</td>
+      <td>Lawful good</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Kyle Rainier</td>
+      <td>3</td>
+      <td>Lawful good</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Kilowog</td>
+      <td>2</td>
+      <td>Chaotic good</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Sinestro</td>
+      <td>Last (gross)</td>
+      <td>Lawful evil</td>
+    </tr>
+    <tr>
+      <th scope="row">1</th>
+      <td>Jon Stewart</td>
+      <td> 1 (duh)</td>
+      <td>Lawful good</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Kyle Rainier</td>
+      <td>3</td>
+      <td>Lawful good</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Kilowog</td>
+      <td>2</td>
+      <td>Chaotic good</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Sinestro</td>
+      <td>Last (gross)</td>
+      <td>Lawful evil</td>
+    </tr>
+  </div>
+  </tbody>
+</table>
+</div>
+
+  </body>
+</html>
